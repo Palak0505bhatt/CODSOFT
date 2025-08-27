@@ -1,4 +1,4 @@
-# 💻 Personal Portfolio Website – CodSoft Internship 
+# 💻 Personal Portfolio Website – CodSoft Internship  
 
 This is a responsive and interactive **portfolio website** developed by **Palak Bhatt** as part of the **CodSoft Web Development Internship**. It showcases her background, technical skills, projects, and resume with a modern and minimal design.
 

@@ -1,0 +1,99 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #34495e;
+  padding: 15px 30px;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: background 0.4s ease, padding 0.3s ease;
+}
+
+.navbar:hover {
+  background: #2c3e50;
+  padding: 18px 35px;
+}
+
+/* Navbar links */
+.nav-links li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #1abc9c;
+  transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  gap: 40px;
+  background: linear-gradient(135deg, #8e9eab, #eef2f3);
+  text-align: center;
+  transition: background 0.5s ease;
+}
+
+.hero-section:hover {
+  background: linear-gradient(135deg, #dce3e7, #f8fafc);
+}
+
+/* Section card */
+.section-card {
+  background: #fff;
+  margin: 40px auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Skills Grid */
+.skills-grid span {
+  background-color: #ecf0f1;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.skills-grid span:hover {
+  background-color: #1abc9c;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #16a085;
+  transform: scale(1.08);
+}
